@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+    <title>Demmy's BBC CSS</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css">
+    
+    
+    body{margin: 0;
+    font-family:arial,helvetica, sans-serif;}
+    
+    
+    #topbar{background-color: #7A0000;
+            width: 100%;
+            height:43px;
+            color: white;}
+    
+    .fixedwidth{width: 1050px;
+              margin:0 auto;
+              }
+    #logodiv{padding-top:5px;
+             float: left;
+             border-right:1px solid #990000;
+             padding-right:10px ;
+             }
+             
+    #signindiv{font-weight:bold;
+               font-size: 0.9em;
+               padding: 5px 10px 12px 20px;
+               border-right:1px solid #990000;
+               width: 100px;
+               float: left;
+               }
+               
+    #signindiv img{position: relative;
+                   top: 5px;}
+                   
+    #topmenudiv{float: left;
+                }
+    
+    #topmenudiv ul{margin-top:0;
+                   padding: 0;}
+    
+    #topmenudiv li {list-style: none;
+                    font-size:0.9em;
+                    font-weight: bold;
+                    border-right: 1px solid #990000;
+                    height:100%;
+                    padding:10px 20px 12px 20px;
+                    float: left;
+                    }
+    #searchdiv{float: left;
+               padding: 5px 0 0 10px;
+               
+               }
+    
+    #searchdiv input{height: 25px;
+                     border: none;
+                     padding: 3px 0 3px 10px;
+                     font-size: 0.9em;
+                     background-image: url("images/magnifier.jpg");
+                     background-repeat:no-repeat;
+                     background-position: right center;
+                    
+                     }
+    #newsbar{background-color: #990000;
+            width: 100%;
+            height:93px;
+            color: white;
+            }
+    .break{clear: both;}
+    
+    
+    #newsbar p{ margin: 0;
+                padding: 0;
+                padding-top: 10px; float: left;}
+                
+    #newsheader{font-size: 3em;
+                }
+                
+    #uk{font-size: 0.7em;
+        padding-left:10px; }
+        
+    #rss{float: right;
+        margin-top:4px; position: relative; color: yellow;}
+        
+    #rss img{
+             height: 14px;
+             z-index: 2;
+    }
+    #topicmenu{z-index: 1;
+               position: relative}
+    
+    #topicmenu ul{background-color: #3E0C00;
+                  padding:5px 0 0 5px;
+                  margin: 0;
+                  height: 20px;
+    }
+    #topicmenu li{list-style: none;
+                  font-size: 0.8em;
+                  background-color: none;
+                  border-right: 1px solid #990000;
+                  float: left;
+                  padding: 0 6px 0 6px;}
+                  
+    .selected{background-color: #EDEDE0;            
+             color:#666666;   
+             height: 22px;
+             position: relative;
+             top: -4px;
+             padding-top: 3px !important;}
+                  
+                  
+    #translogo img{
+             height: 92px;
+             width: 500px;
+             opacity: 1.0;
+             position: absolute;
+             right: 3px;
+             
+            }
+    #translogo {float: right;z-index: 3;}
+    
+    #content{
+            width: 100%;
+            color: #535353;
+            font-size: 0.75em;
+            
+            }
+    .date{font-weight: bold;
+    }
+    
+    h1{color:#1F4F82; font-size: 2.5em;}
+    
+    .headlineimage{float: left;
+    }
+    
+    .newsitem{position: relative;
+              left: 10px;
+              top: -15px;
+              width: 300px;
+              float:left;font-size: 1.1em;
+              }
+    .newsitem a {color: #1F4F82;text-decoration: none;
+    }
+    
+    .newsitem a:hover{text-decoration: underline;
+    }
+    
+    .video {height: 25px;
+            padding-left:35px ;
+            background-image: url("images/triangle.png");
+            background-repeat:no-repeat;
+            background-position: left center;}
+            
+    .speaker{height: 25px;
+            padding-left:35px ;
+            background-image: url("images/speaker.png");
+            background-repeat:no-repeat;
+            background-position: left center;
+    }
+    .links{line-height: 1.6em;
+    }
+    
+    #watch{background-color: #EEEEEE;
+           width: 300px;
+           float: right;
+           position: relative;
+           top: -70px
+           
+    }
+    h2{colour:#505050;
+        font-size:1.8em;
+        margin:10px 0 10px 10px;}
+    .boxes{float: right;
+    margin: 20px 10px 0 0;}
+</style>    
+</head>
+
+<body>
+  <div id="container">
+    
+    
+    <div id="topbar">
+        
+        
+        <div class="fixedwidth">
+            
+           <div id="logodiv">
+            
+            <img src="images/bbc_logo.jpg" width="80px" height="30px"/>
+            
+           </div>
+           
+           <div id="signindiv">
+            
+           <img src="images/bbcsignin.jpg" /> Sign In 
+           </div>
+           
+           <div id="topmenudiv">
+                <ul>
+                    <li>News</li>
+                    <li>Sports</li>
+                    <li>Weather</li>
+                    <li>Iplayer</li>
+                    <li>TV</li>
+                    <li>Radio</li>
+                    <li>More...</li>
+                </ul>
+                
+           </div>
+           <div id="searchdiv">
+            
+                <input type="text" placeholder="Search Here" />
+            
+           </div>    
+        </div>
+        
+        
+    </div>
+    
+    <div>
+        <div class="break"></div>
+        <div id="newsbar">
+        
+            <div class="fixedwidth">
+            <p id="newsheader">NEWS <span id="uk">UK</span></p>
+             <div id="translogo">
+             <img src="images/world.jpg" />   
+            </div>
+            <div id="rss">
+                RSS <img src="images/rss.png" />   
+            </div>
+            
+            <div class="break"></div>
+            <div id="topicmenu">
+                
+                <ul>
+                    <li>Home</li>
+                    <li>World</li>
+                    <li class="selected">UK</li>
+                    <li>England</li>
+                    <li>N.Ireland</li>
+                    <li>Scotland</li>
+                    <li>Wales</li>
+                    <li>Business</li>
+                    <li>Politics</li>
+                    <li>Health</li>
+                    <li>Educatiom</li>
+                    <li>Sci/Environment</li>
+                    <li>Technology</li>
+                    <li style="border-right: none;">Entertainment & Health</li>
+                    
+                </ul>
+                
+            </div>
+            
+           </div>    
+        </div>
+        <div class="break"></div>
+        <div id="content">
+        
+            <div class="fixedwidth">
+              <p span class= "date">2 April , 2014 </span> Last updated at 15.12pm</p>
+              <h1> The Life at Copenhagen University</h1>
+              <img class= headlineimage src="images/nbi.jpg" width="400px" height="300px"/>
+              <div class="newsitem">
+                <p>The Niels Bohr Institute is the unification of the four previous institutes for the physical sciences at
+              Copenhagen University:The Astronomical Observatory, The Orsted Laboratory, The Geophysical Institute and The Niels Bohr Institute.</p>
+                
+                <p class="links"><a class="video" href="">What happens at the University of Copenhagen</a><br />
+                <a class="video" href="">Places to see at the University of Copenhagen</a><br />
+                <a class="video" href="">What is the weather like in Copenhagen</a><br />
+                <a class="speaker" href="">The weather is amazing</a> </p>
+              </div>
+              <div id="watch">
+                <img src="images/loading.jpg" class="boxes" width="70px"  />
+                <h2>Watch/Listen</h2>
+                
+                The Niels Bohr Institute is the unification of the four previous institutes for the physical sciences at
+                Copenhagen University:The Astronomical Observatory, The Orsted Laboratory, The Geophysical Institute and The Niels Bohr Institute
+                
+              </div>
+            </div>
+            
+            
+              
+            
+            
+        </div>    
+        
+    </div>
+        
+        
+        
+    </div>
+  </div>
+  
+  
+</body>
+
+</html>
